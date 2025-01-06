@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.nav ul li{
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 15px;
+} */
+.notesection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mid
+{
+  align-items: center;
+  color: rgb(78, 10, 10);
+  font-size: 40px;
+  margin-top: 30px;
+  /* justify-content: center;
+  text-align: center;   */
+}
+
+.div-section
+{
+    display: flex;
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-left: 3vw; */
+
+}
+.div1{
+    border: 3px solid black;
+    /* width: 250px; */
+    /* height: 250px; */
+    margin-left: 33px;
+    /* justify-content: space-between; */
+    margin-top: 5vw;
+    width: 25%;
+    
+    
+}
+.div1 img{
+    width: 100%;
+    height: 150px;
+    border-bottom: 6px solid black;
+}
+.div1 a{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.div1 h2{
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 26px; 
+}
+
+/* Media query */
+
+@media screen and (max-width:910px){
+
+.div1{
+    width: 45%;
+}    
+}
+@media screen and (max-width:555px){
+
+.div1{
+    width: 80%;
+}    
+}

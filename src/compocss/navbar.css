@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav_container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    background-color: grey;
+    padding: 6px;
+  }
+  .left_nav p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .btn-icon{
+    display: none;
+    height: 28px;
+    width: 29px;
+  }
+  .appear{
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    transition: 1s;
+  }
+  
+  .right_nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_nav ul li{
+    margin: 4px 18px;
+    list-style: none;
+  
+  }
+  .right_nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  .right_nav ul li a:hover{
+    
+    color: rgb(27, 27, 27);
+  }
+  
+  .Homesection1{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .btnlogin{
+    position: absolute;
+    /* float: right; */
+    right: 55px;
+    top: 60px;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* width: 99vw; */
+  }
+  .btnlogin button{
+    margin: 0px 4px;
+    width: 68px;
+    height: 23px;
+    border: none;
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+    color: white;
+  }
+  .text{
+    position: absolute;
+    top: 301px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+  }
+  .quote{
+    width: 35vw;
+    font-size: 28px;
+  }
+  .name{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 110px;
+  }
+  
+  .img{
+    display: flex;
+    width: 99vw;
+    transition: transform 1s ease;
+  }
+  .img img{
+    width: 100%;
+  }
+  
+  @media screen and (max-width:870px) {
+  
+    .nav_container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    
+    nav ul li a{
+        color: white;
+    }
+    .left_nav{
+        display: flex;
+        justify-content: space-between ;
+        /* width: 90%; */
+    }
+    
+    .appear{
+        height: 14.3rem;
+        flex-direction: column;
+        width: 225px;
+        background-color: #282e3b;
+        border-bottom-right-radius: 10px;
+       
+    
+    }
+    .disappear{
+        height: 0;
+        display: flex;
+       
+    }
+    .btn-icon{
+        display: block;
+        margin-right: 30px;
+        width: 17px;
+        height: 18px;
+    }
+  }

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  .container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #6a839e;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 25px;
+    font-weight: 300;
+  }
+  /* Contact Form Section */
+  .contact-form-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  
+  .contact-info {
+    width: 45%;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+  }
+  
+  .contact-info li {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .contact-form {
+    width: 45%;
+    /* border: 2px solid black; */
+    margin-left: 40vw;
+    justify-content: center;
+    
+  }
+  
+  .contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+   /* Footer Section */
+   footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+ 
+  /* @media (max-width: 768px) {
+    .contact-form-section {
+      flex-direction: column;
+    }
+  
+    .contact-info,
+    .contact-form {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  
+    header h1 {
+      font-size: 28px;
+    }
+  
+    header p {
+      font-size: 16px;
+    }
+  } */
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header p {
+      font-size: 14px;
+    }
+  
+    .contact-info h2,
+    .contact-form h2 {
+      font-size: 24px;
+    }
+  
+    .contact-form button {
+      font-size: 14px;
+    }
+  }
